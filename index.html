@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/mainStyle.css">
     <link rel="stylesheet" href="css/homeStyle.css">
+    <link rel="stylesheet" href="css/aboutStyle.css">
+    <link rel="stylesheet" href="css/sliderStyle.css">
+    <link rel="stylesheet" href="css/contactStyle.css">
 </head>
 <body>
     <section id="body">
@@ -32,7 +35,15 @@
             <div id="header2">
                 <section id="header2NavContainer">
                     <div class="nav2Div"><a class="nav2DivText">35 ANNIVERSARY</a></div>
-                    <div class="nav2Div"><a class="nav2DivText">PRODUCTS</a></div>
+                    <div class="nav2Div dropdown">
+                        <a class="nav2DivText">PRODUCTS</a>
+                        <div class="dropdown-content">
+                            <a href="#">BEDS</a>
+                            <a href="#">SOFA</a>
+                            <a href="#">SOFA SETS</a>
+                            <a href="#">COFFEE AND SIDE TABLES</a>
+                        </div>
+                    </div>
                     <div class="nav2Div"><a class="nav2DivText">LIVING ROOM</a></div>
                     <div class="nav2Div"><a class="nav2DivText">BEDROOM</a></div>
                     <div class="nav2Div"><a class="nav2DivText">DINING</a></div>
@@ -46,8 +57,186 @@
         </div>
 
         <div id="homeContent">
+            <div style="width: 65%; height: 96%;">
+                <div class="showcase-slider-container">
+                    <div class="showcase-slider">
+                        <img src="assets/img/slider/interieur-1.jpg" width="100%" height="100%">
+                    </div>
+                    <div class="showcase-slider">
+                        <img src="assets/img/slider/bedroom-1.jpg"  width="100%" height="100%">
+                    </div>
+                    <div class="showcase-slider">
+                        <img src="assets/img/slider/showroom-1.jpg" width="100%" height="100%">
+                    </div>
+                    <div class="showcase-slider">
+                        <img src="assets/img/slider/showroom-2.jpg" width="100%" height="100%">
+                    </div>
+                    <div class="showcase-slider">
+                        <img src="assets/img/slider/roomz-1.jpg" width="100%" height="100%">
+                    </div>
+                    <div class="showcase-slider">
+                        <img src="assets/img/slider/roomz-2.jpg" width="100%" height="100%">
+                    </div>
+                </div>
+            </div>
 
         </div>
+
+        <!--<div id="contactContent">
+            <div id="contactContainer">
+                <div class="address">
+                    <p class="addressText">Home > Contact Us</p>
+                </div>
+                <div id="contactOuter">
+                    <div id="infoContainer">
+                        <div id="infoWrapper1"></div>
+                        <div id="infoWrapper2">
+
+                            <div id="info1">
+
+                                <div id="info1Part1">
+
+                                    <div id="info1ImgDiv">
+                                        <img style="width: 90%; height: 90%; background-size: cover;" src="assets/img/icons-phone-50.png">
+                                    </div>
+
+                                    <div id="info1TextDiv">
+                                        <p style="width: max-content; font-size: 14px;">PHONE</p>
+                                    </div>
+
+                                </div>
+
+                                <div id="info1Part2">
+                                    <p style="width: max-content; height: max-content">0123 456 789</p>
+                                </div>
+
+                            </div>
+
+                            <div id="info2">
+
+                                <div id="info2Part1">
+
+                                    <div id="info2ImgDiv">
+                                        <img style="width: 90%; height: 90%; background-size: cover;" src="assets/img/icons8-mail-48%20(1).png">
+                                    </div>
+
+                                    <div id="info2TextDiv">
+                                        <p style="width: max-content; font-size: 14px;">EMAIL</p>
+                                    </div>
+
+                                </div>
+
+                                <div id="info2Part2">
+                                    <p style="width: max-content; height: max-content">customercare@info.lk</p>
+                                </div>
+
+                            </div>
+
+                            <div id="info3">
+
+                                <div id="info3Part1">
+
+                                    <div id="info3ImgDiv">
+                                        <img style="width: 90%; height: 90%; background-size: cover;" src="assets/img/icons8-marker-50.png">
+                                    </div>
+
+                                    <div id="info3TextDiv">
+                                        <p style="width: max-content; font-size: 14px;">ADDRESS</p>
+                                    </div>
+
+                                </div>
+
+                                <div id="info3Part2">
+                                    <p style="width: max-content; height: max-content">NO 1,Lotus Lane,Colombo 07.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="inputMap">
+
+                        <div id="inputWrapper">
+                            <div id="nameWrapper">
+                                <div id="namePart1">
+                                    <p style="width: max-content; font-size: 12px; font-weight: bold">Name</p>
+                                </div>
+                                <div id="namePart2">
+                                    <input style="width: 76.5%; height: 65%;" type="text">
+                                </div>
+                            </div>
+
+                            <div id="emailWrapper">
+                                <div id="emailPart1">
+                                    <p style="width: max-content; font-size: 12px; font-weight: bold">Email</p>
+                                </div>
+                                <div id="emailPart2">
+                                    <input style="width: 76.5%; height: 65%;" type="text">
+                                </div>
+                            </div>
+
+                            <div id="subjectWrapper">
+                                <div id="subjectPart1">
+                                    <p style="width: max-content; font-size: 12px; font-weight: bold">Subject</p>
+                                </div>
+                                <div id="subjectPart2">
+                                    <input style="width: 76.5%; height: 65%;" type="text">
+                                </div>
+                            </div>
+
+                            <div id="messageWrapper">
+                                <div id="messagePart1">
+                                    <p style="width: max-content; font-size: 12px; font-weight: bold">Message</p>
+                                </div>
+                                <div id="messagePart2">
+                                    <textarea rows="5" cols="29" style="resize: none"></textarea>
+                                </div>
+                            </div>
+
+                            <div id="buttonWrapper">
+                                <button style="width: 20%; height: 80%;">Submit</button>
+                            </div>
+                        </div>
+
+                        <div id="mapWrapper">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6576162381275!2d79.84282391448637!3d6.931463520209783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25924eb1274c3%3A0xa59d97c8a378072f!2s1%20Lotus%20Rd%2C%20Colombo!5e0!3m2!1sen!2slk!4v1633961100253!5m2!1sen!2slk" width=100% height=100% style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <!--<div id="aboutContent">
+            <div id="aboutContainer">
+                <div class="address">
+                    <p class="addressText">Home > About Us</p>
+                </div>
+                <div id="aboutOuter">
+                    <div id="aboutImg">
+                        <img id="imgAbout" src="assets/img/Home_Furniture.webp">
+                    </div>
+                    <div id="aboutDesc">
+                        <p class="descText">
+                            Welcome to ABC, your number one source for all things furniture,<br>
+                            We're dedicated to giving you the very best of furniture, with a focus on
+                            dependability,<br> customer service and uniqueness.<br>
+                            Founded in year 1996 by Mr. Sarath Gunasekara, ABC has come a long way from it's<br>
+                            beginnings in a garage. When Mr. Sarath first started out,<br> his passion for furniture
+                            drove him to quit his job and focus on his passion and gave<br> him the impetus to turn
+                            hard work into a booming online store.<br> We now serve customers all over Sri Lanka, and
+                            are thrilled to be a part of eco friendly<br> and fair trade wing of the furniture industry.
+                        </p>
+                        <p class="descText">
+                            We hope you enjoy our products as much as we enjoy offering them to you.
+                            If you have<br> any questions or comments, please don't hesitate to contact us.
+                        </p>
+                        <p class="descText">
+                            Sincerely,<br>
+                            Sunith Gunasekara, CEO.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>-->
 
         <div id="footer">
             <div id="footerDiv1">

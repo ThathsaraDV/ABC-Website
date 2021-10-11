@@ -18,7 +18,7 @@
     flex-direction: row;
     width: 100%;
     height: 60%;
-    background-color: aliceblue;
+    background-color: #F7F8F8;
 }
 
 #headerName{
@@ -43,7 +43,7 @@
     width: max-content;
     float: none;
     margin: 0 auto;
-    color: aliceblue;
+    color: #F7F8F8;
 }
 
 #headerNav{
@@ -90,7 +90,7 @@
 
 .nav2DivText{
     font-size: 12px;
-    color: aliceblue;
+    color: #F7F8F8;
 }
 
 #footer{
@@ -125,7 +125,7 @@
 }
 
 #teleIcon{
-    border: 2px solid aliceblue;
+    border: 2px solid #F7F8F8;
     padding: 5px;
 }
 
@@ -143,7 +143,7 @@
 
 #teleText2{
     width: max-content;
-    color: aliceblue;
+    color: #F7F8F8;
 }
 
 #footerMail{
@@ -156,7 +156,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid aliceblue;
+    border: 2px solid #F7F8F8;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -175,5 +175,27 @@
 
 #mailText2{
     width: max-content;
-    color: aliceblue;
+    color: #F7F8F8;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
