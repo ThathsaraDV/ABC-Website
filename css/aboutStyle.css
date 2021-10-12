@@ -21,12 +21,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgray;
+    background-color: #f0f0f0;
 }
 
 .addressText{
-    color: #1B2A37;
-    font-size: 12px;
+    color: #8C8C8C;
+    font-size: 13px;
+    width: max-content;
 }
 
 #aboutOuter{

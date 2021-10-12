@@ -1,0 +1,145 @@
+#bedContent{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+    background-color: #F9F9F9;
+}
+
+#bedContainer{
+    width: 70%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+}
+
+.productName{
+    width: 100%;
+    height: 4%;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.nameText{
+    color: #8C8C8C;
+    font-size: 14px;
+    margin-left: 0.5%;
+}
+
+#bedOuter{
+    width: 100%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#sort{
+    width: 86%;
+    height: 100%;
+    background-color: #F7F8F8;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+#sorting{
+    background-color: #ffffff;
+    border: 1px solid #BBC4C2;
+    color: #BBC4C2;
+    width: 15%;
+    height: 70%;
+    margin-top: 0.4%;
+}
+
+#resultNumber{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#outer2{
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+#outer2Wrapper{
+    width: 100%;
+    height: 300%;
+    display: flex;
+    flex-direction: column;
+}
+
+#row1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#row2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#row3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#row4{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bedBox{
+    width: 30%;
+    height: 94%;
+    background-color: #F7F8F8;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bedBoxImg{
+    width: 100%;
+    height: 68%;
+}
+
+.bedBoxText{
+    width: 100%;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
