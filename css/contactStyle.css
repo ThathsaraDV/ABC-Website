@@ -42,10 +42,10 @@
     margin-left: 5%;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #info1{
-    width: 15%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -87,7 +87,6 @@
 }
 
 #info2{
-    width: 25%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -129,7 +128,6 @@
 }
 
 #info3{
-    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -283,4 +281,151 @@
     width: 65%;
     height: 100%;
     margin-left: 5%;
+}
+
+.contactIconText{
+    width: max-content;
+    font-size: 14px;
+}
+
+.contactIconInfo{
+    width: max-content;
+    height: max-content;
+}
+
+#inputSubject{
+    width: 76.5%;
+    height: 65%;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 480px){
+
+    #contactContainer {
+        width: 98%;
+        height: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactIconText{
+        width: max-content;
+        font-size: 1.5vw;
+    }
+
+    .contactIconInfo{
+        width: max-content;
+        height: max-content;
+        font-size: 1.5vw;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #contactContainer {
+        width: 96%;
+        height: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #infoContainer {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+    }
+
+    #infoWrapper1 {
+        width: 0;
+        height: 0;
+    }
+
+    #infoWrapper2 {
+        width: 100%;
+        height: 100%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .contactIconText {
+        width: max-content;
+        font-size: 3vw;
+    }
+
+    .contactIconInfo {
+        width: max-content;
+        height: max-content;
+        font-size: 3vw;
+    }
+
+    #inputMap {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+
+    #inputWrapper {
+        width: 98%;
+        height: 93%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #nameWrapper {
+        width: 48%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #emailWrapper {
+        width: 52%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+         margin-top: 0;
+    }
+
+    #subjectWrapper {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5%;
+    }
+
+    #inputSubject{
+        width: 88.5%;
+        height: 65%;
+    }
+
+    #messageWrapper {
+        width: 100%;
+        height: 38%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5%;
+    }
+
+    #buttonWrapper {
+        width: 100%;
+        height: 12%;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    #mapWrapper {
+        width: 89%;
+        height: 100%;
+        margin-left: 5%;
+    }
 }

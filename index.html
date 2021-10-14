@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>ABC Website</title>
     <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=2 minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=2 minimum-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/mainStyle.css">
     <link rel="stylesheet" href="css/homeStyle.css">
@@ -26,10 +26,10 @@
                 </div>
                 <section id="headerNav">
                     <section id="headerNavContainer">
-                        <div class="navDiv"><a class="navDivText">ABOUT US</a></div>
-                        <div class="navDiv"><a class="navDivText">GALLERY</a></div>
-                        <div class="navDiv"><a class="navDivText">CORPORATE ENQUIRY</a></div>
-                        <div class="navDiv"><a class="navDivText">CONTACT US</a></div>
+                        <div class="navDiv"><a class="navDivText" id="aboutLink">ABOUT US</a></div>
+                        <div class="navDiv"><a class="navDivText" id="galleryLink">GALLERY</a></div>
+                        <div class="navDiv"><a class="navDivText" id="enquiryLik">CORPORATE ENQUIRY</a></div>
+                        <div class="navDiv"><a class="navDivText" id="contactLink">CONTACT US</a></div>
                     </section>
                 </section>
             </div>
@@ -40,10 +40,13 @@
                     <div class="nav2Div dropdown">
                         <a class="nav2DivText">PRODUCTS</a>
                         <div class="dropdown-content">
-                            <a href="#">BEDS</a>
+                            <a href="#" id="bedLink" class="productDrop">BEDS</a>
+                            <a href="#">CHAIRS</a>
+                            <a href="#">TABLES</a>
+                            <a href="#">LAMPS</a>
                             <a href="#">SOFA</a>
                             <a href="#">SOFA SETS</a>
-                            <a href="#">COFFEE AND SIDE TABLES</a>
+                            <a href="#">SIDE TABLES</a>
                         </div>
                     </div>
                     <div class="nav2Div"><a class="nav2DivText">LIVING ROOM</a></div>
@@ -58,8 +61,8 @@
 
         </div>
 
-        <!--<div id="homeContent">
-            <div style="width: 65%; height: 96%;">
+        <div id="homeContent">
+            <div id="sliderOuter">
                 <div class="showcase-slider-container">
                     <div class="showcase-slider">
                         <img src="assets/img/slider/interieur-1.jpg" width="100%" height="100%">
@@ -82,9 +85,9 @@
                 </div>
             </div>
 
-        </div>-->
+        </div>
 
-        <!--<div id="contactContent">
+        <div id="contactContent">
             <div id="contactContainer">
                 <div class="address">
                     <p class="addressText">Home > Contact Us</p>
@@ -103,13 +106,13 @@
                                     </div>
 
                                     <div id="info1TextDiv">
-                                        <p style="width: max-content; font-size: 14px;">PHONE</p>
+                                        <p class="contactIconText">PHONE</p>
                                     </div>
 
                                 </div>
 
                                 <div id="info1Part2">
-                                    <p style="width: max-content; height: max-content">0123 456 789</p>
+                                    <p class="contactIconInfo">0123 456 789</p>
                                 </div>
 
                             </div>
@@ -123,13 +126,13 @@
                                     </div>
 
                                     <div id="info2TextDiv">
-                                        <p style="width: max-content; font-size: 14px;">EMAIL</p>
+                                        <p class="contactIconText">EMAIL</p>
                                     </div>
 
                                 </div>
 
                                 <div id="info2Part2">
-                                    <p style="width: max-content; height: max-content">customercare@info.lk</p>
+                                    <p class="contactIconInfo">customercare@info.lk</p>
                                 </div>
 
                             </div>
@@ -143,13 +146,13 @@
                                     </div>
 
                                     <div id="info3TextDiv">
-                                        <p style="width: max-content; font-size: 14px;">ADDRESS</p>
+                                        <p class="contactIconText">ADDRESS</p>
                                     </div>
 
                                 </div>
 
                                 <div id="info3Part2">
-                                    <p style="width: max-content; height: max-content">NO 1,Lotus Lane,Colombo 07.</p>
+                                    <p class="contactIconInfo">NO 1,Lotus Lane,Colombo 07.</p>
                                 </div>
 
                             </div>
@@ -181,7 +184,7 @@
                                     <p style="width: max-content; font-size: 12px; font-weight: bold">Subject</p>
                                 </div>
                                 <div id="subjectPart2">
-                                    <input style="width: 76.5%; height: 65%;" type="text">
+                                    <input id="inputSubject" type="text">
                                 </div>
                             </div>
 
@@ -205,9 +208,9 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
 
-        <!--<div id="aboutContent">
+        <div id="aboutContent">
             <div id="aboutContainer">
                 <div class="address">
                     <p class="addressText">Home > About Us</p>
@@ -238,13 +241,13 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
 
-        <!--<div id="bedContent">
+        <div id="bedContent">
             <div id="bedContainer">
                 <div class="productName">
                     <p class="nameText">BEDS</p>
-                    <p class="addressText" style="margin-left: 72%;">Home > Bedroom > Bedroom Furniture > <b>Beds</b></p>
+                    <p class="addressText">Home > Bedroom > Bedroom Furniture > <b>Beds</b></p>
                 </div>
 
                 <div id="bedOuter">
@@ -258,7 +261,7 @@
                             </select>
                         </div>
                         <div id="resultNumber">
-                            <p style="font-size: 12px; width: max-content; color: #8C8C8C;">Showing 1-10 of 24 results</p>
+                            <p id="resultNumberText">Showing 1-10 of 24 results</p>
                         </div>
                     </div>
                     <div id="outer2">
@@ -275,7 +278,7 @@
                                         <p style="width: max-content; height: max-content; color: #07aea4; font-size: 18px; margin: 8px;">Rs. 97,175</p>
                                     </div>
                                 </div>
-                                <div class="bedBox">
+                                <div class="bedBox" id="chelseaBed">
                                     <div class="bedBoxImg">
                                         <img style="width: 100%; height: 100%; background-size: cover;" src="assets/img/beds/Chester.jpg">
                                     </div>
@@ -380,7 +383,7 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
 
         <div id="productContent">
             <div id="productContainer">
@@ -461,5 +464,71 @@
             </div>
         </div>
     </section>
+
+<script>
+
+    let home = document.getElementById("homeContent");
+    let contact = document.getElementById("contactContent");
+    let about = document.getElementById("aboutContent");
+    let bed = document.getElementById("bedContent");
+    let product = document.getElementById("productContent");
+
+    contact.style.display = "none";
+    about.style.display = "none";
+    bed.style.display = "none";
+    product.style.display = "none";
+
+    document.getElementById("headerNameH1").addEventListener("click", function () {
+
+        home.style.display = "flex";
+        contact.style.display = "none";
+        about.style.display = "none";
+        bed.style.display = "none";
+        product.style.display = "none";
+
+    });
+
+    document.getElementById("aboutLink").addEventListener("click", function () {
+
+        home.style.display = "none";
+        contact.style.display = "none";
+        about.style.display = "flex";
+        bed.style.display = "none";
+        product.style.display = "none";
+
+    });
+
+    document.getElementById("contactLink").addEventListener("click", function () {
+
+        home.style.display = "none";
+        contact.style.display = "flex";
+        about.style.display = "none";
+        bed.style.display = "none";
+        product.style.display = "none";
+
+    });
+
+    document.getElementById("bedLink").addEventListener("click", function () {
+
+        home.style.display = "none";
+        contact.style.display = "none";
+        about.style.display = "none";
+        bed.style.display = "flex";
+        product.style.display = "none";
+
+    });
+
+    document.getElementById("chelseaBed").addEventListener("click", function () {
+
+        home.style.display = "none";
+        contact.style.display = "none";
+        about.style.display = "none";
+        bed.style.display = "none";
+        product.style.display = "flex";
+
+    });
+
+
+</script>
 </body>
 </html>

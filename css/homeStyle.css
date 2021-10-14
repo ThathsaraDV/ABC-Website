@@ -8,3 +8,16 @@
     justify-content: center;
     background-color: #F7F8F8;
 }
+
+#sliderOuter{
+    width: 65%;
+    height: 96%;
+}
+
+
+@media screen and (max-width: 480px) {
+    #sliderOuter{
+        width: 96%;
+        height: 56%;
+    }
+}
