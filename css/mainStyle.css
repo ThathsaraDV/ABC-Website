@@ -5,7 +5,7 @@
     height: 100vh;
 }
 
-#header{
+#headerBig{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -214,17 +214,17 @@
     display: block;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 512px) {
 
-    #header{
-        display: flex;
+    #headerBig{
+        display: none;
         flex-direction: column;
         width: 100%;
         height: 20%;
         order: 1;
     }
 
-    #header1{
+    /*#header1{
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -345,17 +345,17 @@
     #footerDiv1 {
         width: 100%;
         height: 100%;
-        /*display: flex;
+        !*display: flex;
         justify-content: center;
-        align-items: center;*/
+        align-items: center;*!
     }
 
     #footerDiv2 {
-        /*width: 70%;*/
+        !*width: 70%;*!
         height: 100%;
-        /*display: flex;
+        !*display: flex;
         justify-content: center;
-        align-items: center;*/
+        align-items: center;*!
     }
 
     #footerTele {
@@ -407,10 +407,10 @@
         width: max-content;
         color: #F9F9F9;
         font-size: 2.5vw;
-    }
+    }*/
 }
 
-@media screen and (max-width: 860px) and (min-width: 480px){
+@media screen and (max-width: 860px) and (min-width: 512px){
 
     .navDivText {
         font-size: 1.5vw;
@@ -419,7 +419,7 @@
     }
 
     .nav2DivText {
-        font-size: 1vw;
+        font-size: 1.2vw;
         color: #F9F9F9;
     }
 

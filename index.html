@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="css/contactStyle.css">
     <link rel="stylesheet" href="css/bedStyle.css">
     <link rel="stylesheet" href="css/productStyle.css">
+    <link rel="stylesheet" href="css/menuStyle.css">
 </head>
 <body>
     <section id="body">
-        <div id="header">
+        <div id="headerBig">
 
             <div id="header1">
                 <div id="headerName">
@@ -26,10 +27,10 @@
                 </div>
                 <section id="headerNav">
                     <section id="headerNavContainer">
-                        <div class="navDiv"><a class="navDivText" id="aboutLink">ABOUT US</a></div>
-                        <div class="navDiv"><a class="navDivText" id="galleryLink">GALLERY</a></div>
-                        <div class="navDiv"><a class="navDivText" id="enquiryLik">CORPORATE ENQUIRY</a></div>
-                        <div class="navDiv"><a class="navDivText" id="contactLink">CONTACT US</a></div>
+                        <div class="navDiv"><a class="navDivText aboutLink">ABOUT US</a></div>
+                        <div class="navDiv"><a class="navDivText galleryLink">GALLERY</a></div>
+                        <div class="navDiv"><a class="navDivText enquiryLink">CORPORATE ENQUIRY</a></div>
+                        <div class="navDiv"><a class="navDivText contactLink">CONTACT US</a></div>
                     </section>
                 </section>
             </div>
@@ -58,6 +59,57 @@
                     <div class="nav2Div"><a class="nav2DivText">STORE LOCATOR</a></div>
                 </section>
             </div>
+
+        </div>
+
+        <div id="headerSm">
+
+            <div id="headerSm1">
+                <div id="headerSmName">
+                    <div id="headerSmNameDiv">
+                        <h1 id="headerSmNameH1">Company</h1>
+                    </div>
+                </div>
+                <div class="container">
+                    <nav class="header__nav nav-bar">
+                        <div class="toggle-menu">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
+                        <section id="headerSm2NavContainer">
+                            <div class="navSm2Div"><a class="navSm2DivText">35 ANNIVERSARY</a></div>
+                            <div class="navSm2Div dropdownSm">
+                                <a class="navSm2DivText">PRODUCTS</a>
+                                <div class="dropdownSm-contentSm">
+                                    <a href="#" id="bedSmLink" class="productDrop">BEDS</a>
+                                    <a href="#">CHAIRS</a>
+                                    <a href="#">TABLES</a>
+                                    <a href="#">LAMPS</a>
+                                    <a href="#">SOFA</a>
+                                    <a href="#">SOFA SETS</a>
+                                    <a href="#">SIDE TABLES</a>
+                                </div>
+                            </div>
+                            <div class="navSm2Div"><a class="navSm2DivText">LIVING ROOM</a></div>
+                            <div class="navSm2Div"><a class="navSm2DivText">BEDROOM</a></div>
+                            <div class="navSm2Div"><a class="navSm2DivText">DINING</a></div>
+                            <div class="navSm2Div"><a class="navSm2DivText">OFFICE FURNITURE</a></div>
+                            <div class="navSm2Div"><a class="navSm2DivText">PLASTIC PRODUCTS</a></div>
+                            <div class="navSm2Div"><a class="navSm2DivText">APPLIANCES</a></div>
+                            <div class="navSm2Div"><a class="navSm2DivText">STORE LOCATOR</a></div>
+
+                        </section>
+                        <ul class="nav-list">
+                            <li class="nav-list-item"><a href="#" class="nav-link aboutLink">ABOUT US</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link galleryLink">GALLERY</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link enquiryLink">CORPORATE ENQUIRY</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link contactLink">CONTACT US</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
 
         </div>
 
@@ -408,30 +460,30 @@
                         </div>
 
                         <div id="productDesc">
-                            <p style="width: max-content; height: max-content; color: #8C8C8C; font-size: 20px; margin: 2% 0 0 0;">Chelsea Bed – 78″ x 72″</p>
-                            <p style="width: max-content; height: max-content; color: #8C8C8C; font-size: 12px; margin: 0;">( SBCE7872 )</p>
-                            <p style="width: max-content; height: max-content; color: #07aea4; font-size: 22px; margin-top: 4%;">Rs. 101,775</p>
-                            <p style="width: 80%; height: max-content; text-align: justify; color: #8C8C8C; font-size: 18px; margin: 2% 0 0 0;">Fascinating bed design crafted using finest steel to provide embellishment to the most tranquil place in your house. Robust steel frame with excellently stitched upholstery will improve your room’s décor at best.</p>
+                            <p id="descName">Chelsea Bed – 78″ x 72″</p>
+                            <p id="descCode">( SBCE7872 )</p>
+                            <p id="descPrice">Rs. 101,775</p>
+                            <p id="descDesc">Fascinating bed design crafted using finest steel to provide embellishment to the most tranquil place in your house. Robust steel frame with excellently stitched upholstery will improve your room’s décor at best.</p>
                         </div>
                     </div>
 
                     <div id="productPart2">
                         <div id="productPart2Header">
-                            <div style="width: 3%; height: 100%; margin-left: 2%;">
+                            <div id="productPenImg">
                                 <img style="width: 100%; height: 100%; background-size: cover;" src="assets/img/icons8-quill-pen-28.png">
                             </div>
                             <div>
-                                <p style="width: max-content; height: max-content; color: #8C8C8C; font-size: 16px; margin: 0;">Description</p>
+                                <p style="">Description</p>
                             </div>
                         </div>
                         <div>
-                            <p style="width: max-content; height: max-content; color: #8C8C8C; font-size: 16px; margin: 0 0 0.5% 2%;"><b>Dimensions</b></p>
+                            <p class="productSpecTitle"><b>Dimensions</b></p>
                             <ul style="margin: 0">
                                 <li style="color: #8C8C8C;">Length – 78″ | Width – 72″ | Height – 44″ (Inch)</li>
                             </ul>
-                            <p style="width: max-content; height: max-content; color: #8C8C8C; font-size: 16px; margin: 0.5% 0 0.5% 2%;"><b>Warranty</b></p>
+                            <p class="productSpecTitle"><b>Warranty</b></p>
                             <ul style="margin: 0">
-                                <li style="color: #8C8C8C;">2 year warranty for structure</li>
+                                <li style="color: #8C8C8C;" id="warrantyList">2 year warranty for structure</li>
                             </ul>
                         </div>
                     </div>
@@ -473,6 +525,12 @@
     let bed = document.getElementById("bedContent");
     let product = document.getElementById("productContent");
 
+    let toggleButton = document.querySelector('.toggle-menu');
+    let navBar = document.querySelector('.nav-bar');
+    toggleButton.addEventListener('click', function () {
+        navBar.classList.toggle('toggle');
+    });
+
     contact.style.display = "none";
     about.style.display = "none";
     bed.style.display = "none";
@@ -488,7 +546,17 @@
 
     });
 
-    document.getElementById("aboutLink").addEventListener("click", function () {
+    document.getElementById("headerSmNameH1").addEventListener("click", function () {
+
+        home.style.display = "flex";
+        contact.style.display = "none";
+        about.style.display = "none";
+        bed.style.display = "none";
+        product.style.display = "none";
+
+    });
+
+    document.getElementsByClassName("aboutLink")[0].addEventListener("click", function () {
 
         home.style.display = "none";
         contact.style.display = "none";
@@ -498,13 +566,35 @@
 
     });
 
-    document.getElementById("contactLink").addEventListener("click", function () {
+    document.getElementsByClassName("aboutLink")[1].addEventListener("click", function () {
+
+        home.style.display = "none";
+        contact.style.display = "none";
+        about.style.display = "flex";
+        bed.style.display = "none";
+        product.style.display = "none";
+        navBar.classList.toggle('toggle');
+
+    });
+
+    document.getElementsByClassName("contactLink")[0].addEventListener("click", function () {
 
         home.style.display = "none";
         contact.style.display = "flex";
         about.style.display = "none";
         bed.style.display = "none";
         product.style.display = "none";
+
+    });
+
+    document.getElementsByClassName("contactLink")[1].addEventListener("click", function () {
+
+        home.style.display = "none";
+        contact.style.display = "flex";
+        about.style.display = "none";
+        bed.style.display = "none";
+        product.style.display = "none";
+        navBar.classList.toggle('toggle');
 
     });
 
@@ -515,6 +605,18 @@
         about.style.display = "none";
         bed.style.display = "flex";
         product.style.display = "none";
+        navBar.classList.toggle('toggle');
+
+    });
+
+    document.getElementById("bedSmLink").addEventListener("click", function () {
+
+        home.style.display = "none";
+        contact.style.display = "none";
+        about.style.display = "none";
+        bed.style.display = "flex";
+        product.style.display = "none";
+        navBar.classList.toggle('toggle');
 
     });
 
@@ -527,6 +629,7 @@
         product.style.display = "flex";
 
     });
+
 
 
 </script>
